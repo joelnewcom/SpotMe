@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F34FB061B5FED8900023601 /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34FB051B5FED8900023601 /* ChallengesViewController.swift */; };
+		5F34FB081B5FEDE400023601 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34FB071B5FEDE400023601 /* Challenge.swift */; };
 		5F99E6431B5EE4C300295670 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99E6421B5EE4C300295670 /* MapViewController.swift */; };
 		5F99E6451B5FC85700295670 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99E6441B5FC85700295670 /* SignUpViewController.swift */; };
 		5F99E6471B5FC9E500295670 /* ViewControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99E6461B5FC9E500295670 /* ViewControllerUtils.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F34FB051B5FED8900023601 /* ChallengesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
+		5F34FB071B5FEDE400023601 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		5F99E6421B5EE4C300295670 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5F99E6441B5FC85700295670 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5F99E6461B5FC9E500295670 /* ViewControllerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUtils.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				5F99E6441B5FC85700295670 /* SignUpViewController.swift */,
 				5F99E6461B5FC9E500295670 /* ViewControllerUtils.swift */,
 				5F99E6481B5FD1B000295670 /* SettingsViewController.swift */,
+				5F34FB051B5FED8900023601 /* ChallengesViewController.swift */,
+				5F34FB071B5FEDE400023601 /* Challenge.swift */,
 			);
 			path = SpotMe;
 			sourceTree = "<group>";
@@ -290,11 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE57A821B5EBAB200D0ED6C /* LoginViewController.swift in Sources */,
+				5F34FB081B5FEDE400023601 /* Challenge.swift in Sources */,
 				5FB4F9131B5E9D680021BAC0 /* ViewController.swift in Sources */,
 				5F99E6491B5FD1B000295670 /* SettingsViewController.swift in Sources */,
 				5F99E6471B5FC9E500295670 /* ViewControllerUtils.swift in Sources */,
 				5FB4F9111B5E9D680021BAC0 /* AppDelegate.swift in Sources */,
 				5F99E6431B5EE4C300295670 /* MapViewController.swift in Sources */,
+				5F34FB061B5FED8900023601 /* ChallengesViewController.swift in Sources */,
 				5F99E6451B5FC85700295670 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
